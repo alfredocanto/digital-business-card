@@ -1,0 +1,36 @@
+.email-button {
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: white;
+  border: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.linkedin-button {
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.linkedin-button,
+.email-button {
+  cursor: pointer;
+  transition: ease-out 0.2s;
+  outline: none;
+}
+
+.linkedin-button:hover,
+.email-button:hover {
+  transform: scale(1.05);
+}
