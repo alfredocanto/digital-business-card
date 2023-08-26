@@ -1,5 +1,5 @@
 .card {
-  height: 780px;
+  height: 87vh;
   width: 317px;
   background-color: #1A1B21;
   margin: auto;
@@ -9,12 +9,15 @@
   left: 0;
   right: 0;
   border-radius: 10px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  min-height: 670px;
 }
 
 .img-container {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  height: 305px;
+  height: 30vh;
   width: 317px;
   overflow: hidden;
 }
@@ -22,38 +25,4 @@
 .card-img {
   margin-left: -250px;
   margin-top: -200px;
-}
-
-/*make it so the browser doesnt change any colors or button text colors*/
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-@media (max-width: 768px) {
-  .card {
-    height: 780px;
-    width: 317px;
-    background-color: #1A1B21;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 10px;
-  }
-
-  .img-container {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 305px;
-    width: 317px;
-    overflow: hidden;
-  }
-
-  .card-img {
-    margin-left: -250px;
-    margin-top: -200px;
-  }
 }

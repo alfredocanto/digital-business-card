@@ -1,17 +1,15 @@
 .card-footer {
   width: 317px;
-  height: 64px;
+  height: 10vh;
   flex-shrink: 0;
   border-radius: 0px 0px 10px 10px;
   background: #161619;
   position: absolute;
   bottom: 0;
-  /*center all the icons and give some spacing between*/
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-
 }
 
 .social-media-icons {
